@@ -1,0 +1,227 @@
+[
+  {
+    "operation_id": "ActionItem_Reports",
+    "path": "/{portfolioGuid}/actionitems/reports",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ActionItem_UDFs",
+    "path": "/{portfolioGuid}/actionitems/udfs",
+    "method": "GET"
+  },
+  {
+    "operation_id": "DailyReport_Reports",
+    "path": "/{portfolioGuid}/dailyreports/reports",
+    "method": "GET"
+  },
+  {
+    "operation_id": "DailyReport_UDFs",
+    "path": "/{portfolioGuid}/dailyreports/udfs",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ActionItem_List",
+    "path": "/{portfolioGuid}/{projectId}/actionitems",
+    "method": "GET"
+  },
+  {
+    "operation_id": "DailyReport_List",
+    "path": "/{portfolioGuid}/{projectId}/dailyreports",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Budget_Reports",
+    "path": "/{portfolioGuid}/budgets/reports",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Budget_UDFs",
+    "path": "/{portfolioGuid}/budgets/udfs",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ChangeOrderRequest_Reports",
+    "path": "/{portfolioGuid}/changeOrderRequests/reports",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ChangeOrderRequest_UDFs",
+    "path": "/{portfolioGuid}/changeOrderRequests/udfs",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Contract_Reports",
+    "path": "/{portfolioGuid}/contracts/reports",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Contract_UDFs",
+    "path": "/{portfolioGuid}/contracts/udfs",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Budget_List",
+    "path": "/{portfolioGuid}/{projectId}/budgets",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ChangeOrderRequest_List",
+    "path": "/{portfolioGuid}/{projectId}/changeOrderRequests",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ActionItem_ListOnlyWithQuery",
+    "path": "/{portfolioGuid}/actionitems/list",
+    "method": "POST"
+  },
+  {
+    "operation_id": "ActionItem_ListWithQuery",
+    "path": "/{portfolioGuid}/actionitems/query",
+    "method": "POST"
+  },
+  {
+    "operation_id": "Checklist_ListOnlyWithQuery",
+    "path": "/{portfolioGuid}/checklists/list",
+    "method": "POST"
+  },
+  {
+    "operation_id": "Checklist_ListWithQuery",
+    "path": "/{portfolioGuid}/checklists/query",
+    "method": "POST"
+  },
+  {
+    "operation_id": "DailyReport_ListOnlyWithQuery",
+    "path": "/{portfolioGuid}/dailyreports/list",
+    "method": "POST"
+  },
+  {
+    "operation_id": "DailyReport_ListWithQuery",
+    "path": "/{portfolioGuid}/dailyreports/query",
+    "method": "POST"
+  },
+  {
+    "operation_id": "ActionItem_Post",
+    "path": "/{portfolioGuid}/{projectId}/actionitems",
+    "method": "POST"
+  },
+  {
+    "operation_id": "ActionItem_ListOnly",
+    "path": "/{portfolioGuid}/{projectId}/actionitems/list",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ActionItem_SubmitWorkflowResponse",
+    "path": "/{portfolioGuid}/{projectId}/actionitems/submitWorkflowResponse",
+    "method": "POST"
+  },
+  {
+    "operation_id": "ActionItem_GetWorkflowStates",
+    "path": "/{portfolioGuid}/{projectId}/actionitems/workflowstates",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ActionItem_GetWorkflowTemplates",
+    "path": "/{portfolioGuid}/{projectId}/actionitems/workflowtemplates",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ActionItem_GetByID",
+    "path": "/{portfolioGuid}/{projectId}/actionitems/{actionItemId}",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Checklist_ListOnly",
+    "path": "/{portfolioGuid}/{projectId}/checklists/list",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Checklist_GetWorkflowStates",
+    "path": "/{portfolioGuid}/{projectId}/checklists/workflowstates",
+    "method": "GET"
+  },
+  {
+    "operation_id": "DailyReport_Post",
+    "path": "/{portfolioGuid}/{projectId}/dailyreports",
+    "method": "POST"
+  },
+  {
+    "operation_id": "DailyReport_ListOnly",
+    "path": "/{portfolioGuid}/{projectId}/dailyreports/list",
+    "method": "GET"
+  },
+  {
+    "operation_id": "DailyReport_SubmitWorkflowResponse",
+    "path": "/{portfolioGuid}/{projectId}/dailyreports/submitWorkflowResponse",
+    "method": "POST"
+  },
+  {
+    "operation_id": "DailyReport_GetWorkflowStates",
+    "path": "/{portfolioGuid}/{projectId}/dailyreports/workflowstates",
+    "method": "GET"
+  },
+  {
+    "operation_id": "DailyReport_GetWorkflowTemplates",
+    "path": "/{portfolioGuid}/{projectId}/dailyreports/workflowtemplates",
+    "method": "GET"
+  },
+  {
+    "operation_id": "DailyReport_GetByID",
+    "path": "/{portfolioGuid}/{projectId}/dailyreports/{dailyReportId}",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Budget_ListOnlyWithQuery",
+    "path": "/{portfolioGuid}/budgets/list",
+    "method": "POST"
+  },
+  {
+    "operation_id": "Budget_ListWithQuery",
+    "path": "/{portfolioGuid}/budgets/query",
+    "method": "POST"
+  },
+  {
+    "operation_id": "ChangeOrderRequest_ListOnlyWithQuery",
+    "path": "/{portfolioGuid}/changeOrderRequests/list",
+    "method": "POST"
+  },
+  {
+    "operation_id": "ChangeOrderRequest_ListWithQuery",
+    "path": "/{portfolioGuid}/changeOrderRequests/query",
+    "method": "POST"
+  },
+  {
+    "operation_id": "Contract_ListOnlyWithQuery",
+    "path": "/{portfolioGuid}/contracts/list",
+    "method": "POST"
+  },
+  {
+    "operation_id": "Contract_ListWithQuery",
+    "path": "/{portfolioGuid}/contracts/query",
+    "method": "POST"
+  },
+  {
+    "operation_id": "Budget_Post",
+    "path": "/{portfolioGuid}/{projectId}/budgets",
+    "method": "POST"
+  },
+  {
+    "operation_id": "Budget_ListOnly",
+    "path": "/{portfolioGuid}/{projectId}/budgets/list",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Budget_GetWorkflowStates",
+    "path": "/{portfolioGuid}/{projectId}/budgets/workflowstates",
+    "method": "GET"
+  },
+  {
+    "operation_id": "Budget_GetByID",
+    "path": "/{portfolioGuid}/{projectId}/budgets/{budgetId}",
+    "method": "GET"
+  },
+  {
+    "operation_id": "ChangeOrderRequest_Post",
+    "path": "/{portfolioGuid}/{projectId}/changeOrderRequests",
+    "method": "POST"
+  }
+]
